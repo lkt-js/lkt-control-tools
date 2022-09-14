@@ -73,6 +73,9 @@
     "vue-tsc": "^0.38.9"
   },
   "peerDependencies": {
-    "lkt-ts-interfaces": "git+https://gitlab.com/lkt-ui/lkt-ts-interfaces.git"
+    "lkt-ts-interfaces": "^1.0.0"
+  },
+  "dependencies": {
+    "lkt-ts-interfaces": "^1.0.0"
   }
 }

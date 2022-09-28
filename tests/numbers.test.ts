@@ -1,5 +1,4 @@
-import {ensureNumberBetween} from "../src";
-
+import { ensureNumberBetween } from '../src';
 
 test('ensureNumberBetween', () => {
   expect(ensureNumberBetween(4, 5, 8)).toEqual(5);

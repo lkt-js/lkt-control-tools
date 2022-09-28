@@ -34,13 +34,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://gitlab.com/lkt-ui/lkt-control-tools.git"
+    "url": "git+https://github.com/lekrat/lkt-control-tools.git"
   },
   "author": "Antonio Ibáñez <lkt.web.tech@gmail.com>",
   "license": "MIT",
-  "homepage": "https://gitlab.com/lkt-ui/lkt-control-tools#readme",
+  "homepage": "https://github.com/lekrat/lkt-control-tools#readme",
   "bugs": {
-    "url": "https://gitlab.com/lkt-ui/lkt-control-tools/issues"
+    "url": "https://github.com/lekrat/lkt-control-tools/issues"
   },
   "devDependencies": {
     "@babel/core": "^7.13.13",

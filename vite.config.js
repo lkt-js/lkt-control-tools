@@ -11,14 +11,18 @@ export default {
         alias: { '@': src, '@test': test }
     },
     build: {
+        outDir: 'build',
         lib: {
             entry: `${ src }/index.ts`,
             name: 'LktControlTools',
-            fileName: (format) => `lkt-control-tools.${ format }.js`
+            formats: ['es']
         },
         minify: true,
         rollupOptions: {
-            external: [ 'vue', 'lkt-ts-interfaces' ],
+            external: [
+                'vue',
+                'lkt-ts-interfaces'
+            ],
             output: {
                 globals: {
                     vue: 'Vue',

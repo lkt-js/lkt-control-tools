@@ -1,8 +1,7 @@
 {
   "name": "lkt-control-tools",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A collection of functions for control code flow",
-  "module": "./dist/lkt-control-tools.js",
   "keywords": [
     "lkt",
     "lkt-web-tech",
@@ -12,6 +11,7 @@
     "javascript"
   ],
   "type": "module",
+  "module": "./dist/lkt-control-tools.js",
   "exports": {
     ".": {
       "import": "./dist/lkt-control-tools.js"
